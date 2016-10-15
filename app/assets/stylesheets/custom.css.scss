@@ -23,7 +23,7 @@ $navbar-default-bg: black;
 .jumbotron {
     background-image: asset-url('skyline-buildings-new-york-skyscrapers.jpg');
     background-size: cover;
-    height: 550px;
+    height: 800px;
     width: 100%;
 }
 
@@ -40,8 +40,28 @@ $navbar-default-bg: black;
     background-color: black;
 }
 
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15 px;
+    padding-bottom: 15px;
+}
+
 footer {
-    margin-top: 45px;
+    margin-top: 10px;
     padding-top: 5px;
     border-top: 1px solid #eaeaea;
     color: #777;
